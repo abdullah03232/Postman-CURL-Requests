@@ -1,0 +1,7 @@
+curl --location 'http://localhost:8081/hotels' \
+--header 'Content-Type: application/json' \
+--data '{
+"hotelName":"Zaid Restaurant",
+"hotelLocation":"Goregaon",
+"hotelAbout":"This is veg hotel"
+}'

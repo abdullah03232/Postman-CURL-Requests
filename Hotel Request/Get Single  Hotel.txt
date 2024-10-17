@@ -1,0 +1,1 @@
+curl --location 'http://localhost:8081/hotels/6c2082f8-816d-466e-81e4-4504c6088045'

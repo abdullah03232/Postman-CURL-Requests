@@ -1,0 +1,8 @@
+curl --location --request PUT 'http://localhost:8081/hotels' \
+--header 'Content-Type: application/json' \
+--data '{
+"hotelId":"58ff19aa-79a3-4b7c-99ee-acefac30ffc0",
+"hotelName":"Kala Ghoda Dive",
+"hotelLocation":"Fort",
+"hotelAbout":"This is veg and non-veg hotel"
+}'

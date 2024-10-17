@@ -1,0 +1,9 @@
+curl --location --request PUT 'http://localhost:8082/rating' \
+--header 'Content-Type: application/json' \
+--data '{
+  "_id": "6322cb26-4f63-4bc2-a43b-9182ace08279",
+  "userId": "565f369c-8457-446d-a722-d0b1ddbdf836",
+  "hotelId": "efc2001b-0685-4b02-86e2-2475e5e9ff4b",
+  "rating": 9,
+  "feedback": "This hotel is very good in taste and service and all"
+}'

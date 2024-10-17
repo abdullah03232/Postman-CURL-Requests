@@ -1,0 +1,8 @@
+curl --location 'http://localhost:8082/rating' \
+--header 'Content-Type: application/json' \
+--data '{
+"userId":"b9f91485-6439-43cb-97db-a8efff7c3312",
+"hotelId":"efc2001b-0685-4b02-86e2-2475e5e9ff4b",
+"rating":9,
+"feedback":"This hotel is best in all"
+}'

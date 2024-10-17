@@ -1,0 +1,1 @@
+curl --location --request DELETE 'http://localhost:8082/rating/908949e0-b40e-40da-9821-d9f766712b03'

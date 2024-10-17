@@ -1,0 +1,8 @@
+curl --location 'http://localhost:8080/users' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"userName":"Zaid",
+"userEmail":"zaid@gmail.com",
+"userAddress":"Goregaon",
+"userMobile":"4455667744"
+}'

@@ -1,0 +1,1 @@
+curl --location 'http://localhost:8080/users/565f369c-8457-446d-a722-d0b1ddbdf836ghvchg'

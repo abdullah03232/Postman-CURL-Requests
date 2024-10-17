@@ -1,0 +1,9 @@
+curl --location --request PUT 'http://localhost:8080/users' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+"userId":"e86717e8-b3b9-4aad-89ab-f17dbbc70d85",    
+"userName":"Zaid Mapari",
+"userEmail":"zaid@gmail.com",
+"userAddress":"Goregaon West",
+"userMobile":"4455667744"
+}'
